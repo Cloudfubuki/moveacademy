@@ -1,0 +1,280 @@
+body * {
+	box-sizing: border-box;
+	font-size: 16px;
+	color : #363636;
+	font-family: "Open Sans";
+}
+
+header {
+    text-align : center;
+}
+
+.logoMove {
+    margin-bottom : 20px;
+}
+
+.navMove {
+    display:flex;
+    justify-content: space-evenly;
+    background-color: #7e4a7c;
+    padding : 1em;
+    font-family: "Economica";
+}
+
+.fakeButtonNav {
+    color : white;
+    text-transform: uppercase;
+    font-weight: bold;
+     font-size: 24px;
+     font-family: "Economica";
+}
+
+.fakeButtonNav > a {
+    text-decoration : none;
+    color : white;
+    text-transform: uppercase;
+    font-weight: bold;
+     font-size: 24px;
+     font-family: "Economica";
+}
+
+.fakeButtonNav > a:hover {
+    	text-decoration: none;
+	color: #7e4a7c;
+	background-color: white;
+	padding: 0.5em;
+}
+
+h1 {
+    font-family: "Economica";
+    font-size: 50px;
+    color: #7e4a7c ;
+    text-align: center;
+}
+
+h2 {
+   font-family: "Economica";
+    font-size: 40px;
+    color: #b878b5 ;
+}
+
+h3 {
+    font-family: "Economica";
+    font-size: 30px;
+    color: #7e4a7c ;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+button {
+    font-size: 20px;
+    color: white;
+    background-color: #7e4a7c;
+    font-family: "Economica";
+    padding : 1em;
+    border: 2px solid #7e4a7c;
+}
+
+button:hover {
+    color: #7e4a7c;
+    background-color: white;
+}
+
+em {
+    color : #7e4a7c;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+}
+
+.groupI {
+    max-width: 100%;
+    padding: 1em 1em 1em 0em;
+}
+.aboutP {
+    max-width: 40%;
+    padding: 1em;
+}
+
+.about {
+    display:flex;
+    align-items: flex-start;
+    
+}
+
+.liste {
+    list-style-image: url(puce-fleche.png);
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+.Teachers {
+   column-count:2;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: auto;
+    padding-bottom : 20px;
+}
+
+.blockProfil {
+ background-color: white;
+    width: 90%;
+        margin-top: 20px;
+        font-size:0.80em;
+}
+
+.tProfil {
+    display:flex;
+    flex-direction: column;
+    max-width: 60%;
+        padding-left: 5%;
+        flex-wrap: wrap;
+}
+
+.tProfil > p{
+    font-size: 12px;
+}
+
+.tProfil > h3{
+    margin-top:0;
+    margin-bottom: 0;
+}
+
+.tProfil > button {
+font-size: 12px;
+max-width: 40%;
+}
+
+.introP {
+    font-family:"Open Sans";
+    font-weight: bold;
+    font-style: italic;
+    color : #7e4a7c;
+}
+
+
+.picProf {
+    float: left;
+    max-width: 50%;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid violet;
+  text-align: center;
+}
+
+thead th:nth-child(1) {
+  width: 14%;
+}
+
+thead th:nth-child(2) {
+  width: 21%;
+}
+
+thead th:nth-child(3) {
+  width: 21%;
+}
+
+thead th:nth-child(4) {
+  width: 21%;
+}
+
+thead th:nth-child(5) {
+  width: 21%;
+}
+
+.pasCours {
+    background-color: #ffeefe;
+}
+
+th, td {
+  padding: 10px 20px 10px 20px;
+  border: 1px solid violet;
+}
+
+th {
+    background-color: #7e4a7c;
+    font-weight: bold;
+    color: white;
+}
+
+.lineForm {
+    background-color: #ffeefe;
+    padding: 1em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+label {
+    padding: 1em;
+    font-weight: bold;
+    color: #7e4a7c ;
+    
+}
+
+span > input {
+    width: 300px;
+    border: 2px solid #7e4a7c;
+}
+
+.bookNow {
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0.5em;
+}
+
+.boutonCentre {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+select {
+    max-height: 2em;
+    width: 20%;
+    border: 2px solid #7e4a7c;
+}
+
+.contact {
+    background-color: #7E4A7C;
+	margin-top: 7rem;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	margin-bottom: 0;
+	padding: 2em;
+}
+.contact a {
+	color: white;
+	font-size: 3rem;
+	text-decoration: none;
+	margin: 0 2rem;
+}
+
+.footer {
+    text-align: center;
+    background-color: black;
+    padding: 2em;
+}
+
+footer > p {
+    text-align: center;
+    color: white;
+}
+
+.logo3WA {
+max-width: 60px;
+}
